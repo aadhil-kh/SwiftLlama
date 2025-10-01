@@ -5,7 +5,7 @@ and the purpose of this repo is to provide a swiftier API for Swift developers.
 
 ## Install
 
-    .package(url: "https://github.com/ShenghaiWang/SwiftLlama.git", from: "0.4.0")
+    .package(url: "https://github.com/aadhil-kh/SwiftLlama.git", from: "0.4.0")
 
 ## Usage
 
@@ -34,11 +34,15 @@ and the purpose of this repo is to provide a swiftier API for Swift developers.
             self?.result += value
         }.store(in: &cancallable)
 
+## Agents and advanced patterns
+
+See AGENTS.md for a deeper guide on building stateful chat agents, streaming UIs, and tool-augmented loops on top of SwiftLlama.
+
 ## Test projects
 
 [This video](https://youtu.be/w1VEM00cJWo) was the command line app running with Llama 3 model.
 
-For using it in iOS or MacOS app, please refer to the [TestProjects](https://github.com/ShenghaiWang/SwiftLlama/tree/main/TestProjects) folder.
+For using it in iOS or MacOS app, please refer to the [TestProjects](https://github.com/aadhil-kh/SwiftLlama/tree/main/TestProjects) folder.
 
 
 ## Supported Models
